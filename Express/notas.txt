@@ -1,0 +1,11 @@
+------ Express Generator
+npm i express-generator -g
+------ Generate project
+express --view=pug name-app 
+------ Start project
+DEBUG=express-app-gen:* npm start
+------ Engine pug
+npm i -S pug
+------ Engine Handlebars
+npm i -S consolidate
+npm i -S handlebars
